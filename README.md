@@ -105,7 +105,7 @@ docker-compose logs -f
 - **Dashboard**: http://localhost:3000
 - **API Docs**: http://localhost:8000/docs
 - **Asterisk ARI**: http://localhost:8088/ari/api-docs
-- **MySQL**: localhost:3306 (user: ivr_user, password: ivr_pass123)
+
 
 
 ## 🎯 Features Overview
