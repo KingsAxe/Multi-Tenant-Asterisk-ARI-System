@@ -36,7 +36,7 @@ This project delivers a **multi-tenant ARI (Asterisk REST Interface) system** th
 - Call duration timer
 - Floating widget mode
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐     ┌──────────────┐     ┌─────────────┐
@@ -58,7 +58,7 @@ This project delivers a **multi-tenant ARI (Asterisk REST Interface) system** th
                         └──────────────┘
 ```
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React + TypeScript + Tailwind CSS
 - **Backend**: Python FastAPI + AsyncIO
@@ -69,7 +69,7 @@ This project delivers a **multi-tenant ARI (Asterisk REST Interface) system** th
 - **Charts**: Recharts
 - **Deployment**: Docker Compose
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Docker Desktop installed
@@ -108,7 +108,7 @@ docker-compose logs -f
 
 
 
-## 🎯 Features Overview
+##  Features Overview
 
 ### Dashboard
 - **Real-time Metrics**: Total calls, active calls, answer rate, avg duration
@@ -174,16 +174,16 @@ Edit `.env`:
 
 ```bash
 # Database
-MYSQL_ROOT_PASSWORD=rootpass123
-MYSQL_USER=ivr_user
-MYSQL_PASSWORD=ivr_pass123
+MYSQL_ROOT_PASSWORD=
+MYSQL_USER=
+MYSQL_PASSWORD=
 
 # Asterisk
-ASTERISK_ARI_USER=ariuser
-ASTERISK_ARI_PASSWORD=aripass123
+ASTERISK_ARI_USER=
+ASTERISK_ARI_PASSWORD=
 
 # API
-JWT_SECRET=change-me-in-production
+JWT_SECRET=
 
 # Frontend
 REACT_APP_API_URL=http://localhost:8000
@@ -324,7 +324,7 @@ npm start
 - [React Documentation](https://react.dev/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch
@@ -336,4 +336,4 @@ npm start
 
 MIT License - Free to use and modify
 
-Start customizing and deploying! 🚀
+Start customizing and deploying! 
