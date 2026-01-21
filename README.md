@@ -144,7 +144,7 @@ docker-compose logs -f
 - **Volume Control**: Adjust audio
 - **Floating Mode**: Minimize to corner
 
-## 🔧 Configuration
+##  Configuration
 
 ### SIP Trunk Setup
 
@@ -190,7 +190,7 @@ REACT_APP_API_URL=http://localhost:8000
 REACT_APP_WS_URL=ws://localhost:8000/ws
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Test the Dashboard
 1. Navigate to http://localhost:3000
@@ -228,7 +228,7 @@ curl http://localhost:8000/api/v1/tenants
 open http://localhost:8000/docs
 ```
 
-## 📊 Database Schema
+##  Database Schema
 
 8 tables with relationships:
 - `tenants` - Company accounts
@@ -239,7 +239,7 @@ open http://localhost:8000/docs
 - `users` - Dashboard users
 - `active_calls` - Real-time call state
 
-## 🔐 Security Notes
+##  Security Notes
 
 **Production Checklist**:
 - [ ] Change all default passwords
@@ -251,7 +251,7 @@ open http://localhost:8000/docs
 - [ ] Configure SIP authentication
 - [ ] Enable call encryption (SRTP)
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Port Already in Use
 ```bash
@@ -278,7 +278,7 @@ npm install
 npm start
 ```
 
-## 📝 API Endpoints
+##  API Endpoints
 
 ### Tenants
 - `GET /api/v1/tenants` - List all tenants
@@ -300,7 +300,7 @@ npm start
 ### WebSocket
 - `ws://localhost:8000/ws/{tenant_id}` - Real-time events
 
-## 🎨 Customization
+##  Customization
 
 ### Add New IVR Node Type
 1. Update `IVRFlowBuilder.tsx` nodeTypes array
@@ -317,7 +317,7 @@ npm start
 2. Create component in `frontend/src/components/`
 3. Add navigation item
 
-## 📚 Resources
+##  Resources
 
 - [Asterisk Documentation](https://wiki.asterisk.org/)
 - [FastAPI Docs](https://fastapi.tiangolo.com/)
@@ -332,7 +332,7 @@ npm start
 4. Test thoroughly
 5. Submit pull request
 
-## 📄 License
+##  License
 
 MIT License - Free to use and modify
 
